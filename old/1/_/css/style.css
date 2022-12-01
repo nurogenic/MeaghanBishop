@@ -1,0 +1,74 @@
+*		{margin:0; padding:0; font-family: helvetica, arial;}
+body	{background: #333333}
+ul 		{list-style: none;}
+h3 		{color:#ED1C24; margin-bottom:3px;}
+p 		{color:#FFFFFF; font-size:12px;}
+input, textarea {background-color: #D1D1D1; border-radius: 4px; border:0px; padding: 3px;}
+
+.body 		{width:650px; margin:10px auto 0; padding:50px; border: 1px #999999 solid; -moz-border-radius:35px; border-radius:35px;}
+.Resume .body {width:850px;}
+/* Header */
+.main		{width:960px; margin: 20px auto 0} 
+
+.logo 		{text-align:center; }
+.logo img 	{display:inline; border:0; width:709px; margin: 0 auto -20px auto;}
+
+.nav 		{display:block; width:174px; margin:0 auto;}
+.nav img 	{border:0; text-align:center;}
+.nav li 	{list-style:none; display:inline;}
+
+.icon 		{margin-left:15px;}
+
+/* Slideshow */
+.thumb 			{float:left;}
+.thumb img 		{border:0; margin: 0 0 20px 0; cursor: pointer; width: 75px; display: block;}
+
+.work 			{width:500px; overflow:hidden; position:static; float: right; } 
+#slider 		{list-style: none; position: relative; width:7000px;}
+#slider li.slide{float:left; width:700px; display:inline;}
+.slideImage 	{float:left; margin-right:40px;}
+#eternity 		{width:550px; margin-bottom: 25px;}
+
+.image 			{margin: 32.5px 0 32.5px -59px; float:left;}
+.image img 		{border:0}
+.text 			{width:185px; height:440px; margin: 30px 0 30px 41px; float:left;}
+
+ #flexslider h3 	{text-align: right;}
+.email-slider h3	{margin-right: 238px;}
+.apparel-slider h3	{margin-right: 191px;}
+.bikes-slider h3	{margin-right: 25px;}
+.print-slider h3	{margin-right: 151px;}
+
+.flex-control-thumbs img {opacity: 0.3;}
+/* Contact Page */
+#contactborder 		{width:650px;margin:10px auto 0; padding:50px; border: 1px #999999 solid; -moz-border-radius:35px; border-radius:35px;}
+
+.contactBodyCopy 	{margin-left: 60px; width:250px; float:left;}
+.contactBodyCopy li {margin-top: 15px; list-style: none;}
+
+#social 			{margin-top:10px;}
+#twitter 			{width: 30px; height:30px; background:transparent url('../img/social-icons.png') 0 -32px no-repeat; float: left; margin-right: 5px;}
+#twitter:hover 		{background-position:0 0;}
+#linkedin 			{width: 30px; height:30px; background:transparent url('../img/social-icons.png') -32px -32px no-repeat; float: left;}
+#linkedin:hover 	{background-position:-32px 0;}
+
+.outputMessage 		{color: #ED1C24; margin-bottom:10px;}
+
+.contactform 		{float:left; margin-left:75px;}
+.contactform p 		{margin-bottom:2px;}
+.contactform input, textarea {margin-bottom:5px;}
+.inputsize 			{height:20px; width:200px;}
+#inputsize 			{width:200px;}
+
+#submitbutton 		{background-color: #ED1C24; color: #FFFFFF; padding: 5px 15px; cursor: pointer;}
+
+/* Resume Page */
+.resume img 	{float:left; width: 540px;}
+.resumedl 		{color:white; margin-top: 30px}
+.resumedl img 	{margin-right:5px; vertical-align: middle;}
+
+/* Footer */
+.copyright p 	{color: #D1D1D1; text-align: center; margin-top:15px; font-size: 10px;}
+
+/* Utilities */
+.clear {clear:both;}

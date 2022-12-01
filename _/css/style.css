@@ -1,0 +1,462 @@
+*		{margin:0; padding:0; font-family: helvetica, arial;}
+body	{background: #fff}
+ul 		{list-style: none;}
+h3 		{color:#999; margin-bottom:5fpx;}
+p 		{color:#333; font-size:12px;}
+input, textarea {width: 100%; background-color: #333; color: #fff; border-radius: 4px; border:0px; padding: 10px;}
+input[type="submit"] {width: 100%; background-color: #59c5cc; color: #FFFFFF; padding: 15px; cursor: pointer; font-size: 16px;}
+a:hover {
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c1bebe;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #c1bebe;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c1bebe;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c1bebe;
+}
+
+div,ol,ul,li,h1,h2,h3,h4,h5,h6,p,input,select,textarea {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.body 		{
+	padding:50px 0;
+}
+.Resume .body {width:850px;}
+/* Header */
+.main		{
+	width:100%;
+	padding: 40px 0 0 0;
+} 
+
+.head 		{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.head .logo a{
+    width: 210px;
+    display: inline-block;
+}
+
+.head .logo img {
+}
+
+.head .links {
+    display: block;
+    margin-top: 40px;
+}
+
+.head .links li {
+    display: inline-block;
+    margin: 0 7%;
+}
+
+.head .links li a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.head .links li a:hover {
+    color: #336699;
+    text-decoration: underline;
+}
+
+.nav 			{display:block; width:174px; margin:0 auto;}
+.nav img 		{border:0; text-align:center;}
+.nav ul {
+	float: right;
+	margin-top: 10px;
+}
+
+.icons		{
+	    text-align: center;
+}
+.icons {
+    height: 50px;
+    display: inline;
+}
+
+.home-page .item-list {
+	width: 102%;
+	margin: 0 -1%;
+	text-align: center;
+}
+
+.home-page .item-list .item {
+    width: 29%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2%;
+    transition: all 0.2s ease;
+}
+
+.home-page .item-list .item a {
+    text-decoration: none;
+}
+
+.home-page .item-list .item:hover {
+    opacity: 0.8;
+}
+
+.home-page .item-list .item .image-container {
+    border: 1px solid #333;
+    padding: 8px;
+    background: #f7f7f7;
+}
+.home-page .item-list .item .image {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover !important;
+}
+
+.home-page .item-list .item .info {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.home-page .item-list .item .info .title {
+    font-size: 18px;
+    color: #333;
+}
+
+.home-page .item-list .item .info .tags {
+    font-size: 14px;
+    color: #a7a7a7;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+/*.home-page .item-list .item .info .tags:before {
+    content: '(';
+}
+
+.home-page .item-list .item .info .tags:after {
+    content: ')';
+}*/
+
+/* Contact Page */
+#contactborder 		{width:650px;margin:10px auto 0; padding:50px; border: 1px #999999 solid; -moz-border-radius:35px; border-radius:35px;}
+
+.contactBodyCopy 	{margin-left: 60px; width:250px; float:left;}
+.contactBodyCopy li {margin-top: 15px; list-style: none;}
+
+#social 			{margin-top:10px;}
+#twitter 			{width: 30px; height:30px; background:transparent url('../img/social-icons.png') 0 -32px no-repeat; float: left; margin-right: 5px;}
+#twitter:hover 		{background-position:0 0;}
+#linkedin 			{width: 30px; height:30px; background:transparent url('../img/social-icons.png') -32px -32px no-repeat; float: left;}
+#linkedin:hover 	{background-position:-32px 0;}
+
+.outputMessage 		{margin-bottom:10px;}
+
+.contactform 		{float:left; margin-left:75px;}
+.contactform p 		{margin-bottom:2px;}
+.contactform input, textarea {margin-bottom:5px;}
+.inputsize 			{width:400px; max-width: 100%;}
+#inputsize 			{width: 400px; max-width: 100%;}
+
+/* Resume Page */
+.resume img 	{float:left; width: 540px;}
+.resumedl 		{color:white; margin-top: 30px}
+.resumedl img 	{margin-right:5px; vertical-align: middle;}
+
+/* Detail Page */
+.detail-page .float-container {
+    margin-top: 20px;
+}
+
+.detail-page .col-left {
+    width: 65%;
+}
+
+.detail-page .col-right {
+    width: 35%;
+    padding-left: 20px;
+}
+
+.detail-page .title {
+    font-size: 25px;
+    color: #333;
+}
+
+.detail-page .tags {
+    font-size: 14px;
+    color: #a7a7a7;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.detail-page .description {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.detail-page a {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #336699;
+    text-decoration: none;
+}
+
+/* .login-page */
+
+.login-page form {
+    width: 400px;
+    margin: 0 auto;
+}
+.login-page input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* .admin-page */
+
+.admin-page .col-left {
+    width: 30%;
+}
+
+.admin-page .col-right {
+    width: 65%;
+}
+
+.admin-page ul {
+    display: table;
+    width: 100%;
+}
+.admin-page ul li {
+    display: table-row;
+}
+
+.admin-page ul li .image-container,
+.admin-page ul li .info,
+.admin-page ul li .actions {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.admin-page ul li .image-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 150px;
+    height: 100px;
+}
+
+.admin-page ul li .actions a {
+    display: block;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.admin-page ul li .actions a:hover {
+    background: #e7e7e7;
+    cursor: pointer;
+}
+
+/* .admin-edit-page */
+
+.admin-edit-page form:before,
+.admin-edit-page form:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.admin-edit-page form input,
+.admin-edit-page form textarea {
+    margin-bottom: 10px;
+}
+
+.admin-edit-page form .col-left {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.admin-edit-page form .col-right {
+    padding-left: 30px;
+    width: 50%;
+}
+
+.admin-edit-page form .image-container {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.admin-edit-page form .image-container .remove {
+    width: 20px;
+    height: 20px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.admin-edit-page form .image-container .remove:hover {
+    opacity: 1;
+}
+
+.admin-edit-page form .image-container .remove:before {
+    content: 'x';
+}
+
+.admin-edit-page form .image-container.is-thumb {
+    border-color: red;
+}
+
+.admin-edit-page form .image-container.is-thumb:before {
+    content: 'Thumbnail';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(51,51,51, 0.8);
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Footer */
+.footer			{
+	width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.contact-page .col-left,
+.contact-page .col-right {
+	width: 50%;
+}
+
+.copyright p 	{color: #999; text-align: center; margin-top:15px; font-size: 10px;}
+
+
+/* Utilities */
+.clear {clear:both;}
+
+.mrg-b10 {
+	margin-bottom: 10px;
+}
+
+.mrg-b40 {
+    margin-bottom: 40px;
+}
+
+.row {
+	width: 100%;
+}
+
+.container-width {
+	max-width: 1024px;
+	margin:0 auto;
+}
+
+.float-container:before,
+.float-container:after,
+.row:before,
+.row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-3 {
+	width: 33.3333%;
+	float: left;
+}
+
+.col-left {
+    float: left;
+}
+.col-right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+	.logo {
+		text-align: center;
+	}
+
+	.logo img {
+		display: inline-block;
+	}
+
+	.nav ul {
+		float: none;
+		text-align: center;
+	}
+
+	.col-3 {
+		float: none;
+		width: 100%;
+	}
+	.icons {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px){
+	p 		{font-size:16px;}
+
+	.home-page .item-list .item {
+		width: 90%;
+	}
+	
+	.home-page .item-list .item .info {
+		font-size: 20px;
+	}
+
+	.col-left,
+	.col-right {
+		float: none;
+	}
+	.contactform 		{float:none; margin-left:0;}
+	
+	#inputsize,
+	.contactform input, textarea {
+		width: 100%;
+	    font-size: 16px;
+	    padding: 10px;
+	    box-sizing: border-box;
+	    line-height: 16px;
+	    min-height: 36px;
+	}
+}
